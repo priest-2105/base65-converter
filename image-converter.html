@@ -214,11 +214,11 @@
         try {
           const base64 = await convertToBase64(file);
           convertedData.push({
-            filename: file.name,
-            size: file.size,
-            type: file.type,
+            // filename: file.name,
+            // size: file.size,
+            // type: file.type,
             base64: base64,
-            timestamp: new Date().toISOString()
+            // timestamp: new Date().toISOString()
           });
           
           // Update progress
